@@ -26,15 +26,3 @@ Este proyecto utiliza un stack moderno centrado en la **portabilidad, automatiza
 
 ---
 
-## 🚀 Instalación y Configuración Local
-
-Sigue estos pasos para levantar el proyecto en tu entorno local:
-
-### 1. Requisitos Previos
-* Tener instalado [Docker](https://www.docker.com/) y Docker Compose.
-* Tener instalado [Git](https://git-scm.com/).
-
-### 2. Clonar el Repositorio
-```bash
-git clone [https://github.com/tu-usuario/tu-proyecto.git](https://github.com/tu-usuario/tu-proyecto.git)
-cd tu-proyecto
