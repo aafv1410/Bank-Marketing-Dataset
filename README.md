@@ -1,40 +1,49 @@
- Descripción del ProyectoEste proyecto desarrolla un modelo de Inteligencia Artificial diseñado para predecir la contratación de un depósito a plazo por parte de clientes bancarios, basándose en el análisis del dataset bank.csv. A diferencia de predecir el monto, el sistema se enfoca exclusivamente en la probabilidad de que la acción de contratación ocurra.El sistema se implementa bajo una Arquitectura de Datos Híbrida (Pipeline), lo que permite un flujo automatizado desde la ingesta de datos hasta la generación de predicciones.
- Componentes y Herramientas (Stack Tecnológico)Se ha seleccionado un stack moderno para garantizar la portabilidad y escalabilidad del sistema:CategoríaHerramientaJustificaciónLenguajePythonIdeal para procesamiento de datos y modelos de IA por su legibilidad.IDEVS CodeEntorno estándar para desarrollo eficiente con extensiones de Python.ContenedoresDockerAsegura que el pipeline funcione igual en cualquier computador.Base de DatosMongoDBAlmacenamiento flexible de documentos para los datos procesados.AutomatizaciónGitHub ActionsEjecuta pruebas y despliegues automáticos (CI/CD).CloudRenderPlataforma para desplegar la aplicación de forma sencilla.
- Arquitectura del Sistema
-El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilidad y seguridad:
-Ingesta: Captura de datos desde bank.csv.
-Procesamiento: Limpieza y transformación de datos usando Python dentro de Docker.
-Almacenamiento: Carga de datos limpios en MongoDB.
-Modelado: Entrenamiento y evaluación de la IA para la predicción de contratación.
+# 🚀 Predicción de Contratación de Depósitos Bancarios
+
+## 📋 Descripción del Proyecto
+[cite_start]Este proyecto desarrolla un modelo de Inteligencia Artificial diseñado para **predecir la contratación de un depósito a plazo** por parte de clientes bancarios, basándose en el análisis del dataset `bank.csv`[cite: 3]. [cite_start]A diferencia de predecir el monto del depósito, el sistema se enfoca exclusivamente en la probabilidad de que la acción de contratación ocurra[cite: 7].
+
+[cite_start]El sistema se implementa bajo una **Arquitectura de Datos Híbrida (Pipeline)**, lo que permite un flujo automatizado y controlado desde la ingesta de datos brutos hasta la generación de predicciones[cite: 55].
+
+---
+
+## ⚙️ Componentes y Herramientas (Stack Tecnológico)
+Se ha seleccionado un stack moderno para garantizar la portabilidad, seguridad y escalabilidad del sistema:
+
+| Categoría | Herramienta | Justificación Técnica |
+| :--- | :--- | :--- |
+| **Lenguaje** | **Python** | Ideal para procesamiento de datos y modelos de IA por su legibilidad y ecosistema. |
+| **IDE** | **VS Code** | Entorno estándar para desarrollo eficiente con extensiones profesionales. |
+| **Contenedores** | **Docker** | Garantiza que el pipeline funcione exactamente igual en cualquier computador. |
+| **Base de Datos** | **MongoDB** | Almacenamiento NoSQL flexible para los datos procesados del pipeline. |
+| **Automatización** | **GitHub Actions** | Ejecuta flujos de CI/CD (pruebas y despliegues) de forma automática. |
+| **Cloud** | **Render** | Plataforma PaaS para desplegar la aplicación de forma sencilla. |
+
+---
+
+## 🏗️ Arquitectura del Sistema
+El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilidad:
+1. [cite_start]**Ingesta:** Captura de datos desde `bank.csv`[cite: 55].
+2. [cite_start]**Procesamiento:** Limpieza y transformación de datos usando Python dentro de Docker[cite: 8].
+3. [cite_start]**Almacenamiento:** Carga de datos limpios en **MongoDB**[cite: 55].
+4. [cite_start]**Modelado:** Entrenamiento y evaluación de la IA para la predicción de contratación[cite: 33, 34].
+
+### 🚫 Límites del Proyecto
+* [cite_start]El proyecto no contempla la predicción del monto del depósito, solo si se contrata o no[cite: 9].
+* [cite_start]No contempla integración con sistemas bancarios reales en producción[cite: 9].
+
+---
+
+## 📁 Estructura del Repositorio
+```text
 ├── .github/workflows/   # Automatización con GitHub Actions
-├── data/                # Archivos CSV originales (bank.csv)
-├── docs/                # Documentación técnica y planificación
+├── data/                # Archivo original (bank.csv)
+├── docs/                # Planificación y Diseño técnico
 ├── src/                 # Código fuente (Scripts de Python)
-│   ├── ingesta.py       # Conexión y carga inicial
-│   ├── limpieza.py      # Transformación de datos
+│   ├── ingesta.py       # Carga de datos
+│   ├── limpieza.py      # Transformación y limpieza
 │   └── modelo.py        # Entrenamiento de la IA
 ├── Dockerfile           # Configuración de imagen Docker
-├── docker-compose.yml   # Orquestación de servicios (App + MongoDB)
+├── docker-compose.yml   # Orquestación (App + MongoDB)
 └── README.md            # Guía del proyecto
-Instrucciones de Ejecución
-Sigue estos pasos para configurar el entorno local:
-Clonar el repositorio:
-git clone https://github.com/usuario/proyecto-depositos.git
-cd proyecto-depositos
-Levantar el entorno con Docker:
-Este comando instalará las dependencias y configurará la base de datos automáticamente:
-docker-compose up --build
-Ejecución de Scripts:
-El pipeline se inicia automáticamente con el contenedor, pero puedes ejecutar procesos específicos:
-python src/ingesta.py
-Planificación e Hitos (2026)El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK:
-Hito 1: Entrega de Planificación (3 de marzo - 5 de abril) 
-Hito 2: Diseño Técnico y README inicial (6 de abril - 19 de abril) 
-Hito 3: Pipeline Ejecutado (IA entrenada) (20 de abril - 9 de junio) 
-Hito 4: Entrega Final Completa (13 de junio - 30 de junio) 
-Equipo y Documentación
 
-Integrantes:
-AGUSTIN FERNANDEZ VASQUEZ
-NICOLAS CASANOVA PEREZ
-JUANJOSE MARCOS MARDONES MORAGA
