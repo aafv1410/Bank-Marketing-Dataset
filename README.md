@@ -23,14 +23,14 @@ Se ha seleccionado un stack moderno para garantizar la portabilidad, seguridad y
 
 ## 🏗️ Arquitectura del Sistema
 El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilidad:
-1. *Ingesta:** Captura de datos desde `bank.csv`[cite: 55].
-2. **Procesamiento:** Limpieza y transformación de datos usando Python dentro de Docker[cite: 8].
-3. **Almacenamiento:** Carga de datos limpios en **MongoDB**[cite: 55].
-4. **Modelado:** Entrenamiento y evaluación de la IA para la predicción de contratación[cite: 33, 34].
+1. *Ingesta:** Captura de datos desde `bank.csv`.
+2. **Procesamiento:** Limpieza y transformación de datos usando Python dentro de Docker.
+3. **Almacenamiento:** Carga de datos limpios en **MongoDB**.
+4. **Modelado:** Entrenamiento y evaluación de la IA para la predicción de contratación.
 
 ### 🚫 Límites del Proyecto
-* [cite_start]El proyecto no contempla la predicción del monto del depósito, solo si se contrata o no[cite: 9].
-* [cite_start]No contempla integración con sistemas bancarios reales en producción[cite: 9].
+* El proyecto no contempla la predicción del monto del depósito, solo si se contrata o no.
+* No contempla integración con sistemas bancarios reales en producción.
 
 ---
 
