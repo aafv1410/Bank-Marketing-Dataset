@@ -49,7 +49,7 @@ El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilida
 
 
 ## Planificación e Hitos (2026)
-[cite_start]El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK[cite: 5]:
+[cite_start]El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK[cite: 5, 55]:
 
 * [cite_start]**Hito 1: Entrega de Planificación** (26 de marzo - 5 de abril).
 * [cite_start]**Hito 2: Entrega de Diseño Técnico** (6 de abril - 19 de abril).
@@ -60,8 +60,8 @@ El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilida
 
 ## 👥 Equipo y Documentación
 
-
+* [cite_start]**Documento Técnico:** [Enlace a Planificacion.pdf](./docs/Planificacion.pdf)[cite: 1].
 * **Integrantes:**
-    * NICOLAS CASANOVA PEREZ
-    * AGUSTIN FERNANDEZ VASQUEZ
-    * JUANJOSE MARCOS MARDONES MORAGA
+    * NICOLAS CASANOVA PEREZ.
+    * AGUSTIN FERNANDEZ VASQUEZ.
+    * JUANJOSE MARCOS MARDONES MORAGA.
