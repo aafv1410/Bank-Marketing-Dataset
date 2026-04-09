@@ -28,7 +28,7 @@ El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilida
 3. [cite_start]**Almacenamiento:** Carga de datos limpios en **MongoDB**[cite: 55].
 4. [cite_start]**Modelado:** Entrenamiento y evaluación de la IA para la predicción de contratación[cite: 33, 34].
 
-###  Límites del Proyecto
+### 🚫 Límites del Proyecto
 * [cite_start]El proyecto no contempla la predicción del monto del depósito, solo si se contrata o no[cite: 9].
 * [cite_start]No contempla integración con sistemas bancarios reales en producción[cite: 9].
 
@@ -46,22 +46,12 @@ El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilida
 ├── Dockerfile           # Configuración de imagen Docker
 ├── docker-compose.yml   # Orquestación (App + MongoDB)
 └── README.md            # Guía del proyecto
-
-
-## Planificación e Hitos (2026)
-[cite_start]El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK[cite: 5, 55]:
-
-* [cite_start]**Hito 1: Entrega de Planificación** (26 de marzo - 5 de abril).
-* [cite_start]**Hito 2: Entrega de Diseño Técnico** (6 de abril - 19 de abril).
-* [cite_start]**Hito 3: Pipeline Ejecutado e IA entrenada** (20 de abril - 9 de junio).
-* [cite_start]**Hito 4: Entrega Final Completa** (13 de junio - 30 de junio).
-
----
-
-## 👥 Equipo y Documentación
-
-* [cite_start]**Documento Técnico:** [Enlace a Planificacion.pdf](./docs/Planificacion.pdf)[cite: 1].
-* **Integrantes:**
-    * NICOLAS CASANOVA PEREZ.
-    * AGUSTIN FERNANDEZ VASQUEZ.
-    * JUANJOSE MARCOS MARDONES MORAGA.
+ Planificación e Hitos (2026)El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK:
+Hito 1: Entrega de Planificación (26 de marzo - 5 de abril).
+Hito 2: Entrega de Diseño Técnico (6 de abril - 19 de abril).
+Hito 3: Pipeline Ejecutado e IA entrenada (20 de abril - 9 de junio).
+Hito 4: Entrega Final Completa (13 de junio - 30 de junio).
+👥 Equipo
+Integrantes:NICOLAS CASANOVA PEREZ.
+AGUSTIN FERNANDEZ VASQUEZ.
+JUANJOSE MARCOS MARDONES MORAGA.
