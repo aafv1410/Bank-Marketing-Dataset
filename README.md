@@ -47,3 +47,21 @@ El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilida
 ├── docker-compose.yml   # Orquestación (App + MongoDB)
 └── README.md            # Guía del proyecto
 
+```markdown
+## 🗓️ Planificación e Hitos (2026)
+El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK[cite: 57, 61]:
+
+* **Hito 1: Entrega de Planificación** (26 de marzo - 5 de abril)[cite: 57, 61].
+* **Hito 2: Entrega de Diseño Técnico** (6 de abril - 19 de abril)[cite: 57, 61].
+* **Hito 3: Pipeline Ejecutado e IA entrenada** (20 de abril - 9 de junio)[cite: 57, 61].
+* **Hito 4: Entrega Final Completa** (13 de junio - 30 de junio)[cite: 57, 61].
+
+---
+
+## 👥 Equipo y Documentación
+
+* **Documento Técnico:** [Enlace a Planificacion.pdf](./Planificacion.pdf)[cite: 57].
+* **Integrantes:**
+    * NICOLAS CASANOVA PEREZ
+    * AGUSTIN FERNANDEZ VASQUEZ
+    * JUANJOSE MARCOS MARDONES MORAGA
