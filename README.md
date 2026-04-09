@@ -1,13 +1,13 @@
-# 🚀 Predicción de Contratación de Depósitos Bancarios
+#  Predicción de Contratación de Depósitos Bancarios
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 [cite_start]Este proyecto desarrolla un modelo de Inteligencia Artificial diseñado para **predecir la contratación de un depósito a plazo** por parte de clientes bancarios, basándose en el análisis del dataset `bank.csv`[cite: 3]. [cite_start]A diferencia de predecir el monto del depósito, el sistema se enfoca exclusivamente en la probabilidad de que la acción de contratación ocurra[cite: 7].
 
 [cite_start]El sistema se implementa bajo una **Arquitectura de Datos Híbrida (Pipeline)**, lo que permite un flujo automatizado y controlado desde la ingesta de datos brutos hasta la generación de predicciones[cite: 55].
 
 ---
 
-## ⚙️ Componentes y Herramientas (Stack Tecnológico)
+##  Componentes y Herramientas (Stack Tecnológico)
 Se ha seleccionado un stack moderno para garantizar la portabilidad, seguridad y escalabilidad del sistema:
 
 | Categoría | Herramienta | Justificación Técnica |
@@ -21,20 +21,20 @@ Se ha seleccionado un stack moderno para garantizar la portabilidad, seguridad y
 
 ---
 
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilidad:
 1. [cite_start]**Ingesta:** Captura de datos desde `bank.csv`[cite: 55].
 2. [cite_start]**Procesamiento:** Limpieza y transformación de datos usando Python dentro de Docker[cite: 8].
 3. [cite_start]**Almacenamiento:** Carga de datos limpios en **MongoDB**[cite: 55].
 4. [cite_start]**Modelado:** Entrenamiento y evaluación de la IA para la predicción de contratación[cite: 33, 34].
 
-### 🚫 Límites del Proyecto
+###  Límites del Proyecto
 * [cite_start]El proyecto no contempla la predicción del monto del depósito, solo si se contrata o no[cite: 9].
 * [cite_start]No contempla integración con sistemas bancarios reales en producción[cite: 9].
 
 ---
 
-## 📁 Estructura del Repositorio
+##  Estructura del Repositorio
 ```text
 ├── .github/workflows/   # Automatización con GitHub Actions
 ├── data/                # Archivo original (bank.csv)
@@ -47,8 +47,8 @@ El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilida
 ├── docker-compose.yml   # Orquestación (App + MongoDB)
 └── README.md            # Guía del proyecto
 
-```markdown
-## 🗓️ Planificación e Hitos (2026)
+
+## Planificación e Hitos (2026)
 El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK[cite: 57, 61]:
 
 * **Hito 1: Entrega de Planificación** (26 de marzo - 5 de abril)[cite: 57, 61].
