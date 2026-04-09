@@ -1,13 +1,13 @@
-# 🚀 Predicción de Contratación de Depósitos Bancarios
+#  Predicción de Contratación de Depósitos Bancarios
 
-## 📋 Descripción del Proyecto
+##  Descripción del Proyecto
 Este proyecto desarrolla un modelo de Inteligencia Artificial diseñado para **predecir la contratación de un depósito a plazo** por parte de clientes bancarios, basándose en el análisis del dataset `bank.csv`. A diferencia de predecir el monto del depósito, el sistema se enfoca exclusivamente en la probabilidad de que la acción de contratación ocurra.
 
 El sistema se implementa bajo una **Arquitectura de Datos Híbrida (Pipeline)**, lo que permite un flujo automatizado y controlado desde la ingesta de datos brutos hasta la generación de predicciones.
 
 ---
 
-## ⚙️ Componentes y Herramientas (Stack Tecnológico)
+##  Componentes y Herramientas (Stack Tecnológico)
 Se ha seleccionado un stack moderno para garantizar la portabilidad, seguridad y escalabilidad del sistema:
 
 | Categoría | Herramienta | Justificación Técnica |
@@ -21,14 +21,14 @@ Se ha seleccionado un stack moderno para garantizar la portabilidad, seguridad y
 
 ---
 
-## 🏗️ Arquitectura del Sistema
+##  Arquitectura del Sistema
 El proyecto sigue una arquitectura de pipeline que garantiza la interoperabilidad:
 1. *Ingesta:** Captura de datos desde `bank.csv`.
 2. **Procesamiento:** Limpieza y transformación de datos usando Python dentro de Docker.
 3. **Almacenamiento:** Carga de datos limpios en **MongoDB**.
 4. **Modelado:** Entrenamiento y evaluación de la IA para la predicción de contratación.
 
-### 🚫 Límites del Proyecto
+###  Límites del Proyecto
 * El proyecto no contempla la predicción del monto del depósito, solo si se contrata o no.
 * No contempla integración con sistemas bancarios reales en producción.
 
@@ -51,7 +51,7 @@ El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK:
 
 
 ---
-## 👥 Equipo 
+##  Equipo 
 
 * **Integrantes:**
 
@@ -59,7 +59,7 @@ El proyecto se rige por el siguiente cronograma basado en la metodología PMBOK:
     * AGUSTIN FERNANDEZ VASQUEZ.
     * JUANJOSE MARCOS MARDONES MORAGA.
       
-## 📁 Estructura del Repositorio
+##  Estructura del Repositorio
 ```text
 ├── .github/workflows/   # Automatización con GitHub Actions
 ├── data/                # Archivo original (bank.csv)
